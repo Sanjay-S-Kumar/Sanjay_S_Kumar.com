@@ -1,0 +1,354 @@
+
+.navbar-brand
+    {
+      font-size: 210%;
+      
+    }
+#name{
+    color: rgba(222, 210, 223, 0.76);
+    font-family: Calibri;
+}
+
+.navbg{
+    position:fixed;
+    z-index: 100;
+    width: 100%;
+    
+}
+
+
+.press{
+    cursor: pointer;
+    
+    
+    
+}
+.press:hover{
+    background:rgb(39, 29, 48);
+    
+
+}
+
+
+.nav-item{
+    width:auto;
+    font-size: 13px;
+    background:transparent;
+
+}
+.navbg{
+    background:rgb(19, 17, 19);
+}
+#sec{
+    height: 750px;
+    /*background:linear-gradient(rgb(29, 7, 107), #909c9c);*/
+    background-image:url(https://i.pinimg.com/originals/aa/1c/d2/aa1cd2b3e426c638ce171237f911d66c.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+   /*background-image: url(https://goldwallpapers.com/uploads/posts/rubiks-cube-wallpaper/rubiks_cube_wallpaper_014.jpg);*/
+    /*background-repeat: no-repeat;*/
+}
+
+#sec::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(24, 26, 31);
+    opacity:.2 ;
+    
+}
+.pic{
+    
+    border: 5px solid rgb(15, 15, 15);
+    clip-path: circle();
+    margin-left: 8%;
+    
+}
+.navbar-toggler{
+    background:rgb(19, 17, 19);
+    border: none;
+    height: 35px;
+    width:50px;
+    
+    
+    border-radius: 10%;
+    opacity:0.9;
+      
+}
+.bars{
+    color: white;
+    
+}
+
+
+
+.quote{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ /* About Section */
+#about{
+    background-color: cornsilk;
+}
+
+#about .about {
+	flex-direction: column-reverse;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 20px;
+}
+.cet{
+    color: rgba(192, 39, 19, 0.808);
+    margin-left:9px;
+    font-size: 85%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.cet:hover{
+    color:rgb(37, 185, 136);
+    
+
+}
+
+#about .col-right {
+	width: 100%;
+    
+}
+#about .col-right h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+    
+}
+#about .col-right p {
+	margin-bottom: 20px;
+}
+#about .col-right .cta {
+	color: rgb(177, 34, 82);
+	margin-bottom: 50px;
+	padding: 10px 20px;
+	font-size: 2rem;
+}
+.btn{
+    border-radius: 10px; 
+    cursor:pointer;
+    background:  goldenrod;
+    font-weight: 900;
+    color: rgb(12, 4, 1);
+    
+}
+.btn:hover{
+   background: rgb(17, 179, 39);
+}
+
+/* End About Section */
+  
+/*SKILLS SECTION*/
+
+#skills .skills{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+   
+    
+} 
+
+
+.tools{
+    margin-top: 20px;
+    flex-basis: 20%;
+   background:  rgb(231, 224, 230);
+    border-radius: 10px;
+   
+    padding: 10px 6px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+
+    
+   
+    
+	transition: 0.3s ease box-shadow;
+
+}
+#skills{
+    background:linear-gradient(cornsilk,rgb(178, 201, 178));
+    
+}
+
+/*END SKILLS SECTION*/
+
+
+
+/*certification*/
+
+#certification .certification{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+   
+    
+} 
+
+.certificate{
+    margin-top: 20px;
+    flex-basis: 30%;
+   background:  rgb(87, 21, 21);
+   border-radius: 8px;
+   opacity: 0.85;
+   
+   
+   
+   
+    padding: 10px 6px;
+    box-sizing: border-box;
+    justify-content: center;
+     
+	transition: 0.3s ease box-shadow;
+
+}
+.certificate a{
+    color: white;
+    text-decoration: none; 
+    font-weight: 700;
+
+}
+.certificate a:hover{
+    color: red;
+}
+
+.certificate:hover{
+    box-shadow: 0 0 20px 0px rgba(211, 16, 16, 0.2);
+    background:rgb(6, 19, 1);
+    
+
+}
+#certification{
+    background: linear-gradient(rgb(178, 201, 178),white);
+}
+.coursera{
+    width:70px;
+    height: auto;
+
+}
+.edx{
+    padding-top: 10%;
+    padding-bottom: 4%;
+    width:70px;
+    height: auto;
+
+}
+
+/*end certification*/
+/* contact Section */
+
+#contact{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 90px;
+    
+   
+}
+h1{
+    font-size: 36px;
+    font-weight:600;
+}
+
+p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 0%;
+    display: flex;
+    /*justify-content:center;
+    justify-content: space-between;*/
+    justify-content: space-evenly;
+    
+}
+.contact-info{
+    margin-top: 20px;
+    flex-basis: 25%;
+   background: white;
+    border-radius: 5%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+
+    
+   
+    
+	transition: 0.3s ease box-shadow;
+
+}
+h3{
+    text-align: center;
+    font-weight: 650;
+    margin: 10px 0;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+}
+.img{
+    width:70px;
+    height: auto;
+}
+h6{
+    font-family: monospace;
+    font-size: 12px;
+}
+
+
+
+
+@media(max-width:700px){
+    .row{
+        flex-direction:column;
+    }
+}
+/*End contact Section */
+
+.footer{
+    margin-top: 50px;
+    height: 60px;
+    background:linear-gradient(rgb(54, 54, 53),rgb(31, 30, 30));
+    text-align: center;
+   
+    
+    
+}
+.footer h6{
+    margin-top: 30px;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(123, 122, 128);
+    
+}
+.social{
+   
+    float: left;
+    
+    
+}
+.ro{
+    justify-content: space-evenly;}
